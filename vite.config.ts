@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: process.env.GITHUB_PAGES === 'true' ? '/limidi/' : '/',
 })
