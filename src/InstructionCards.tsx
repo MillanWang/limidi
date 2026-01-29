@@ -13,7 +13,7 @@ const steps: InstructionStep[] = [
   {
     title: "Download the LiMIDI Mobile App",
     description:
-      "Get started by downloading the LiMIDI mobile app on your iOS or Android device. The mobile app serves as your MIDI controller interface.",
+      "Get started by downloading the LiMIDI mobile app on your iOS device. The mobile app serves as your MIDI controller interface.",
     link: "https://example.com/limidi-mobile",
     linkText: "Download Mobile App (iOS)",
     useImageBadge: true,
@@ -23,7 +23,7 @@ const steps: InstructionStep[] = [
   {
     title: "Download the LiMIDI Desktop App",
     description:
-      "Download the LiMIDI desktop application to your Mac computer. This app acts as a bridge between your mobile device and your Digital Audio Workstation (DAW).",
+      "Download the LiMIDI desktop application to your Mac. This app acts as a bridge between your mobile device and your Digital Audio Workstation (DAW).",
     link: "https://github.com/MillanWang/limidi/releases/download/LiMIDI-desktop/LiMIDI-darwin-arm64-1.0.0.zip",
     linkText: "Download desktop app (MacOS)",
   },
