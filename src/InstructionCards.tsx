@@ -17,7 +17,7 @@ const steps: InstructionStep[] = [
     link: "https://example.com/limidi-mobile",
     linkText: "Download Mobile App (iOS)",
     useImageBadge: true,
-    badgeImageSrc: "/assets/download-on-the-app-store-apple-badge.svg",
+    badgeImageSrc: `${import.meta.env.BASE_URL}assets/download-on-the-app-store-apple-badge.svg`,
     badgeImageAlt: "Download on the App Store",
   },
   {
