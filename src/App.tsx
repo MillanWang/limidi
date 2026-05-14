@@ -1,18 +1,21 @@
-import { InstructionCards } from "./InstructionCards";
+import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
+import { Features } from "./components/Features";
+import { HowItWorks } from "./components/HowItWorks";
+import { FAQ } from "./components/FAQ";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="text-center mb-8">
-          <h1 className="text-6xl font-bold mb-4 text-white drop-shadow-lg">LiMIDI</h1>
-          <p className="text-xl text-gray-300 mt-4">
-            Use your mobile device as a MIDI controller for your DAW
-          </p>
-        </div>
-
-        <InstructionCards />
-      </div>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-1">
+        <Hero />
+        <Features />
+        <HowItWorks />
+        <FAQ />
+      </main>
+      <Footer />
     </div>
   );
 }
