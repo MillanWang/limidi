@@ -425,7 +425,6 @@ export function PhoneMockup({ className }: PhoneMockupProps) {
     const { cols, rows, patterns } = grid;
     const cellW = (SCREEN_W - (cols - 1) * GAP) / cols;
     const cellH = (GRID_USABLE_H - (rows - 1) * GAP) / rows;
-    const cellRx = Math.max(3, Math.min(cellW, cellH) * 0.1);
 
     return (
       <g
@@ -445,7 +444,6 @@ export function PhoneMockup({ className }: PhoneMockupProps) {
               y={y}
               width={cellW}
               height={cellH}
-              rx={cellRx}
               fill={`url(#pm-color-b${slot})`}
               opacity={REST}
             >
