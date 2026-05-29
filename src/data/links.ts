@@ -7,6 +7,7 @@ export const links = {
     comingSoon: true,
   },
   /** GitHub release tag page (pick the desktop asset to download). */
-  macDesktopDownload: "https://github.com/MillanWang/LiMIDI/releases/tag/LiMIDI-desktop",
+  macDesktopDownload:
+    "https://github.com/MillanWang/LiMIDI/releases/download/LiMIDI-v1.0.0/LiMIDI.dmg",
   macDesktopReleases: "https://github.com/MillanWang/LiMIDI/releases",
 } as const;

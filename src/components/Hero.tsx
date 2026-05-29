@@ -86,6 +86,10 @@ export function Hero() {
                 <Download size={16} aria-hidden="true" />
               </a>
             </div>
+
+            <p className="text-sm text-gray-400">
+              The desktop app is only available for Apple silicon Macs.
+            </p>
           </div>
 
           <div className="fade-up flex justify-center lg:justify-end">
